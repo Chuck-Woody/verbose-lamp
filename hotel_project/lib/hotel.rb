@@ -42,7 +42,7 @@ class Hotel
             
             # @rooms.each {| _ ,v|  return true if !v.full? }
             @rooms.values.any? {|v| !v.full?}
-            # false asdfdas
+            # false asdfdas asdf as
         end
 
         def list_rooms
