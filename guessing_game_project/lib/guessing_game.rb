@@ -7,10 +7,9 @@ class GuessingGame
         @num_attempts = 0
         @game_over = false
     end
-
-
     def num_attempts
         @num_attempts
+        #hello
     end
 
     def game_over?
